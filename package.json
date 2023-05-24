@@ -1,0 +1,29 @@
+{
+  "name": "spam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "make -C contract build",
+    "deploy": "node deploy.js",
+    "spam": "node sendspam.js",
+    "loaddapps": "node loaddapps.js",
+    "loadusers": "node loadusers.js",
+    "updateblacklist": "node updateblacklist.js",
+    "migrate": "sequelize db:migrate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eosjs": "^20.0.0",
+    "node-fetch": "^2.6.0",
+    "sequelize": "^5.8.6",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.8"
+  }
+}

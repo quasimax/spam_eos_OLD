@@ -1,0 +1,25 @@
+{
+  "mainnet": {
+    "api": "https://eos.greymass.com",
+    "api2": "https://public.eosinfra.io",
+    "storage": "./database-mainnet.sqlite",
+    "dialect": "sqlite",
+    "logging": false,
+    "transactionType": "EXCLUSIVE"
+  },
+  "jungle": {
+    "api": "https://jungle-api-4.blckchnd.com",
+    "accounts": {
+      "contract": {
+        "name": "pokerchndadv",
+        "key": "5JAw5FZ1Nt6qtXLvkdJn5SmvDSmdyXmdBQr1JoMPacTJeDHPXwz"
+      }
+    },
+    "message": "PokerChained https://pokerchained.com - Texas Hold'em on EOS blockchain.",
+    "contract": "pokerchndadv",
+    "storage": "./database-jungle.sqlite",
+    "dialect": "sqlite",
+    "logging": false,
+    "transactionType": "EXCLUSIVE"
+  }
+}
